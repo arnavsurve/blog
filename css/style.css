@@ -1,0 +1,35 @@
+* {
+  font-family: monospace;
+  box-sizing: border-box;
+  padding: 0.5em;
+}
+
+a {
+  color: black;
+}
+
+img {
+  max-width: 500px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.card-img {
+  max-width: 60%;
+}
+
+.no-link-deco {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  max-width: 100%;
+}
+
+.card {
+  width: 33%;
+}
