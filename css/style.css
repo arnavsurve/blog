@@ -4,12 +4,12 @@
   padding: 0.5em;
 }
 
-a {
-  color: black;
+p {
+  font-size: 14px;
 }
 
-img {
-  max-width: 500px;
+a {
+  color: black;
 }
 
 .dark-mode {
@@ -18,7 +18,12 @@ img {
 }
 
 .card-img {
-  max-width: 60%;
+  max-width: 350px;
+  max-height: 350px;
+}
+
+.thumbnail {
+  max-width: 65%;
 }
 
 .no-link-deco {
@@ -26,10 +31,10 @@ img {
 }
 
 .container {
-  display: flex;
+  display: inline-flex;
   max-width: 100%;
 }
 
 .card {
-  width: 33%;
+  width: 100%;
 }
